@@ -4,6 +4,6 @@
 def fizzbuzz(number)
   x = number.to_i
 
-
+  
 
 end
