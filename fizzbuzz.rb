@@ -4,8 +4,8 @@
 def fizzbuzz(number)
   x = number.to_i
 
-  if x/3 == 0
-    return "Fizz"
+  if x/3 == 1
+    puts "Fizz"
   end
 
 end
