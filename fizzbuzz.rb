@@ -2,12 +2,6 @@
 # See README.md for instructions on how to do this
 
 def fizzbuzz(number)
-  if number / 3 == 0
-    puts "Fizz"
-  elsif number / 5 == 0
-    puts "Buzz"
-  else
-    nil
-  end
+  
 
 end
