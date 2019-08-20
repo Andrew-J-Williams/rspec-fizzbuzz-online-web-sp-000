@@ -4,7 +4,7 @@
 def fizzbuzz(number)
   x = number.to_i
 
-  if x/3 == 0
+  if x%3 == 0
     puts "Fizz"
   end
 
