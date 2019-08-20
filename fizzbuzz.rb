@@ -6,9 +6,9 @@ def fizzbuzz(number) #First, we define our method and include an argument.
     return "FizzBuzz" #We use return to avoid the 'nil' that comes with using 'puts'.
   elsif number % 3 == 0 #Third, move on to just one case.
     return "Fizz"
-  elsif number % 5 == 0 #Fourth, final true case. 
+  elsif number % 5 == 0 #Fourth, final true case.
     return "Buzz"
-  else
+  else #If all else fails, return the 'nil' as provided in the instructions.
     return nil
   end
 
