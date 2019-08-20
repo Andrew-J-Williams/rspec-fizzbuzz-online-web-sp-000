@@ -2,11 +2,9 @@
 # See README.md for instructions on how to do this
 
 def fizzbuzz(number)
-  x = number.to_i
-
-  if x / 3 == 0
+  if number / 3 == 0
     puts "Fizz"
-  elsif x / 5 == 0
+  elsif number / 5 == 0
     puts "Buzz"
   else
     nil
