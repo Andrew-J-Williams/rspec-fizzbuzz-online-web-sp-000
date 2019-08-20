@@ -10,5 +10,6 @@ def fizzbuzz(number)
     puts "Buzz"
   else
     nil
+  end
 
 end
